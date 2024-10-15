@@ -23,9 +23,13 @@ Backend
 The backend provides the following RESTful API endpoints:
 
 GET /backend/get-all: Retrieves the list of all employees.
+
 GET /backend/get-by-id/:id: Retrieves details of a specific employee by ID.
+
 POST /backend/register: Adds a new employee.
+
 PUT /backend/update-by-id/:id: Updates an existing employee's details.
+
 DELETE /backend/delete-by-id/:id: Deletes an employee by ID.
 
 # Setup Instructions
