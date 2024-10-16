@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { Form, FormGroup, Label, Input, Button, Row, Col } from "reactstrap";
 import { useNavigate, useParams } from "react-router-dom";
-import { getByid } from "../_helper/apiCall/noteService";
+import { getByid } from "../_helper/apiCall/employeeService";
 
 function View() {
   const { id } = useParams();
