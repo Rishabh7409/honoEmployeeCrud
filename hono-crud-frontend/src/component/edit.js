@@ -1,7 +1,7 @@
 import { React, useEffect, useState } from "react";
 import { Form, FormGroup, Label, Input, Button, Row, Col } from "reactstrap";
 import { useNavigate, useParams } from "react-router-dom";
-import { updateEmployee,getByid } from "../_helper/apiCall/noteService";
+import { updateEmployee,getByid } from "../_helper/apiCall/employeeService";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
