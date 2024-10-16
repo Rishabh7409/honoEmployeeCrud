@@ -22,26 +22,7 @@ const readFile = (filePath = dataPath, encoding = "utf8") => {
     return { status: 0, data: error };
   }
 };
-// const readFile = (callback, returnJson = false, filePath = dataPath, encoding = 'utf8') => {
-//   fs.readFile(filePath, encoding, (err, data) => {
-//       if (err) {
-//           throw err;
-//       }
 
-//       callback(returnJson ? JSON.parse(data) : data);
-//   });
-// };
-
-// const writeFile = (fileData, callback, filePath = dataPath, encoding = 'utf8') => {
-
-//   fs.writeFile(filePath, fileData, encoding, (err) => {
-//       if (err) {
-//           throw err;
-//       }
-
-//       callback();
-//   });
-// };
 const writeFile = (fileData, filePath = dataPath, encoding = "utf8") => {  
   try {
     let data = fs.writeFileSync(filePath, JSON.stringify(fileData));
