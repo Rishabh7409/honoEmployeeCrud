@@ -2,7 +2,7 @@ import { React, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button, Table } from "reactstrap";
 import { AiTwotoneEdit, AiFillDelete } from "react-icons/ai";
-import { deleteEmployee, getAllEmployee } from "../_helper/apiCall/noteService";
+import { deleteEmployee, getAllEmployee } from "../_helper/apiCall/employeeService";
 import { GrFormView } from "react-icons/gr";
 import { toast } from 'react-toastify';
 
